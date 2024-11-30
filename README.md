@@ -20,10 +20,12 @@ adicionais que o programa usará. Se o parâmetro for igual a 0, o programa deve
 quantas threads usar automaticamente.
 
 Para rodar o script de análise de desempenho é necessário ter o Python3 instalado e a seguinte biblioteca:
+
 ```$ pip install numpy scipy```
 
 Os parâmetros devem ser editados individualmente dentro do programa, indicando o nome do arquivo de entrada, saída, o número de threads a serem utilizadas e quantas vezes será rodados.
 As estatíscas obtidas são o tempo médio, o desvio padrão e o intervalo de confiança (95%).
+
 ```$ python3 calculaTempo.py```
 
 Os programas C que geram entradas e verificam se a ordenação foi feita corretamente mostram como utilizá-los na execução.
