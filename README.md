@@ -6,7 +6,7 @@ Compile utilizando:
 ```$ gcc -Wall -Werror -pthread -std=c11 -O psort14747274 psort14747274.c```
 
 Modo de uso:
-```$ ./psort<nusp> <entrada> <saída> <threads>```
+```$ ./psort14747274 <entrada> <saída> <threads>```
 
 O parâmetro <entrada> é o nome de um arquivo que contém os registros a serem
 ordenados. Cada registro tem o tamanho fixo de 100 bytes. Cada registro é composto por
