@@ -4,10 +4,10 @@ import numpy as np
 from scipy.stats import t
 
 # Configurações
-program = "./parallel_sort"                 # Caminho para o programa
+program = "./psort14747274"                 # Caminho para o programa
 input_file = "aleatorio.dat"                # Arquivo de entrada
 output_file = "saidaTeste1.out"             # Arquivo de saída
-threads = 8                                 # Número de threads a serem usadas
+threads = 0                                 # Número de threads a serem usadas
 num_executions = 100                        # Número de execuções
 
 # Lista para armazenar os tempos
