@@ -23,8 +23,8 @@ Para rodar o script de análise de desempenho é necessário ter o Python3 insta
 
 ```$ pip install numpy scipy```
 
-Os parâmetros devem ser editados individualmente dentro do programa, indicando o nome do arquivo de entrada, saída, o número de threads a serem utilizadas e quantas vezes será rodados.
-As estatíscas obtidas são o tempo médio, o desvio padrão e o intervalo de confiança (95%).
+Os parâmetros devem ser editados individualmente dentro do programa, indicando o nome do arquivo de entrada, saída, o número de threads a serem utilizadas e quantas vezes será o ordenador irá rodar.
+As estatísticas obtidas são o tempo médio, o desvio padrão e o intervalo de confiança (95%).
 
 ```$ python3 calculaTempo.py```
 
